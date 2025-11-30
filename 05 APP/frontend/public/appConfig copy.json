@@ -1,0 +1,11 @@
+{
+    "map": {
+        "baseMap": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+        /*"baseMap": "https://tiles.openfreemap.org/planet/20251112_001001_pt/{z}/{x}/{y}.pbf",*/
+        "center": [49.461228, 11.111175],
+        "zoom": 24,
+        "maxZoom": 24,
+        "attribution": "&copy; OpenStreetMap contributors"
+    }
+}
+  

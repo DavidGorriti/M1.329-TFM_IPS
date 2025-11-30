@@ -1,0 +1,26 @@
+{
+    "map": {
+        "baseMap": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+        "center": [49.461228, 11.111175],
+        "zoom": 19,
+        "maxZoom": 21,
+        "minZoom": 18,
+        "nativeMaxZoom": 18,
+        "maxBounds": [
+            [49.460779, 11.109794],
+            [49.461677, 11.112556]
+        ],
+        "attribution": "&copy; OpenStreetMap contributors"
+    },
+    "userPositionService": {
+        "getUsersPositionsUrl": "http://localhost:8000/users/user-positions",
+        "updateInterval": 1000,
+        "maxUpdateElapsedTime": 10
+    },
+    "currentDateTimeService": {
+        "currentDateTimeUrl": "http://127.0.0.1:8000/datetime/current-date",
+        "updateInterval": 1000,
+        "maxUpdateElapsedTime": 5
+    }
+}
+  

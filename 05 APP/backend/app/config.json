@@ -1,0 +1,20 @@
+{
+    "timezone": "Europe/Berlin",
+	"database": {
+        "dbname": "postgres",
+        "user": "postgres",
+        "password": "admin",
+        "host": "localhost",
+        "port": "5432"
+    },
+    "models_2d": {
+		"knn":"knn_models/2d_knn.pkl",
+		"scaler":"knn_models/2d_scaler.pkl",
+		"columns":"knn_models/2d_columns.csv"
+    },
+	"models_fd": {
+		"knn":"knn_models/floor_detection_knn.pkl",
+		"scaler":"knn_models/floor_detection_scaler.pkl",
+		"columns":"knn_models/floor_detection_columns.csv"
+	}
+}

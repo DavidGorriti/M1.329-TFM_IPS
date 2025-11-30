@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cuadro de mando Emergencias - Museo de la Cultura Industrial, Núremberg</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body class="bg-light">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-dark px-3">
+        <span class="navbar-brand mb-0 h1">Cuadro de mando Emergencias - Museo de la Cultura Industrial, Núremberg</span>
+    </nav>
+
+
+    <!-- Vista general -->
+    <div id="view-all" class="container-fluid mt-3">
+        <div class="row">
+            <!-- Info general -->
+            <div class="col-4">
+                <div id="info-general">
+                    <div class="row h-15 mb-3 ">
+                        <div class="col-6">
+                            <!-- Fecha actual -->
+                            <div class="card shadow-sm flex-fill h-100">
+                                <div class="card-header">
+                                    <span class="mb-0">Fecha actual</span>
+                                </div>
+                                <div id="current-date" class="card-body d-flex align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <!-- Fecha última actualización -->
+                            <div class="card shadow-sm flex-fill h-100">
+                                <div id="last-update-date-header" class="card-header">
+                                    <span class="mb-0">Última actualización</span>
+                                </div>
+                                <div id="last-update-date" class="card-body d-flex align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Personas -->
+                    <div class="card shadow-sm mb-3 flex-fill h-50">
+                        <div id="users-list-header" class="card-header">
+                            <span class="mb-0">Personas: 0</span>
+                        </div>
+                        <div id="users-list" class="card-body overflow-auto">
+                        </div>
+                    </div>
+            
+                    <!-- Warnings -->
+                    <div class="card shadow-sm flex-fill  h-35">
+                        <div id="warnings-list-header" class="card-header bg-danger-subtle">
+                            <span class="mb-0">Alertas: 0</span>
+                        </div>
+                        <div id="warnings-list" class="card-body overflow-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mapa -->
+            <div class="col-8">
+                <div class="card shadow-sm">
+                    <div class="card-body p-0">
+                        <div id="map-general"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Leaflet JS -->
+    <!--<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>-->
+
+    <!-- Aplicación -->
+    <script type="module" src="./src/main.js"></script>
+
+</body>
+</html>

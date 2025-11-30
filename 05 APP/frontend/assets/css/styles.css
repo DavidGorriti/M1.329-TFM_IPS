@@ -1,0 +1,56 @@
+#info-general {
+    height: 86vh;
+}
+
+#map-general {
+    height: 89vh;
+}
+
+.map-legend {
+    background: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+.map-legend div {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.map-legend i {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin-right: 6px;
+    border-radius: 4px;
+}
+
+.legend-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.card-header {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.user-card:hover, .warning-card:hover,
+.user-card.selected, .warning-card.selected{
+    box-shadow: 0 0.125rem 0.25rem var(--bs-yellow);
+    cursor: pointer;
+}
+
+.h-15 {
+    height: 15%;
+}
+.h-35 {
+    height: 35%;
+}
+
+/* Bootstrap overrides */
+.card {
+    --bs-card-spacer-y: 0rem;
+}
