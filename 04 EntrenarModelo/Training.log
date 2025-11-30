@@ -1,0 +1,95 @@
+2025-11-20 16:35:10,213 - INFO - TRAINING: 01-Train2DModel.py
+2025-11-20 16:35:10,629 - INFO - X_train_scaled shape: (2042, 308)
+2025-11-20 16:35:10,630 - INFO - y_train shape: (2042, 2)
+2025-11-20 16:35:12,187 - INFO - TRAINING: 02-TrainFloorDetectionModel.py
+2025-11-20 16:35:57,543 - INFO - TRAINING: 01-Train2DModel.py
+2025-11-20 16:35:57,959 - INFO - X_train_scaled shape: (2042, 308)
+2025-11-20 16:35:57,960 - INFO - y_train shape: (2042, 2)
+2025-11-20 16:35:59,448 - INFO - TRAINING: 02-TrainFloorDetectionModel.py
+2025-11-20 16:36:32,071 - INFO - TRAINING: 01-Train2DModel.py
+2025-11-20 16:36:32,478 - INFO - X_train_scaled shape: (2042, 308)
+2025-11-20 16:36:32,478 - INFO - y_train shape: (2042, 2)
+2025-11-20 16:36:33,942 - INFO - TRAINING: 02-TrainFloorDetectionModel.py
+2025-11-20 16:36:34,242 - INFO - X_train_scaled shape: (2269, 308)
+2025-11-20 16:36:34,242 - INFO - y_train shape: (2269,)
+2025-11-20 16:36:44,920 - INFO - TRAINING: 01-Train2DModel.py
+2025-11-20 16:36:45,339 - INFO - X_train_scaled shape: (2042, 308)
+2025-11-20 16:36:45,339 - INFO - y_train shape: (2042, 2)
+2025-11-20 16:38:21,731 - INFO - TRAINING: 01-Train2DModel.py
+2025-11-20 16:38:22,150 - INFO - X_train_scaled shape: (2042, 308)
+2025-11-20 16:38:22,150 - INFO - y_train shape: (2042, 2)
+2025-11-20 16:38:36,536 - INFO - TRAINING: 02-TrainFloorDetectionModel.py
+2025-11-20 16:38:36,839 - INFO - X_train_scaled shape: (2269, 308)
+2025-11-20 16:38:36,840 - INFO - y_train shape: (2269,)
+2025-11-20 16:52:52,920 - INFO - TRAINING: 01-Train2DModel.py
+2025-11-20 16:52:53,388 - INFO - X_train_scaled shape: (2042, 308)
+2025-11-20 16:52:53,388 - INFO - y_train shape: (2042, 2)
+2025-11-20 16:53:07,937 - INFO - TRAINING: 01-Train2DModel.py
+2025-11-20 16:53:08,230 - INFO - X_train_scaled shape: (2042, 308)
+2025-11-20 16:53:08,230 - INFO - y_train shape: (2042, 2)
+2025-11-20 16:54:13,153 - INFO - TRAINING: 01-Train2DModel.py
+2025-11-20 16:54:13,456 - INFO - X_train_scaled shape: (2042, 308)
+2025-11-20 16:54:13,457 - INFO - y_train shape: (2042, 2)
+2025-11-20 16:55:18,732 - INFO - TRAINING: 01-Train2DModel.py
+2025-11-20 16:55:19,051 - INFO - X_train_scaled shape: (2042, 308)
+2025-11-20 16:55:19,052 - INFO - y_train shape: (2042, 2)
+2025-11-20 16:55:39,720 - INFO - TRAINING: 01-Train2DModel.py
+2025-11-20 16:55:40,181 - INFO - X_train_scaled shape: (2042, 308)
+2025-11-20 16:55:40,181 - INFO - y_train shape: (2042, 2)
+2025-11-20 16:56:00,130 - INFO - TRAINING: 01-Train2DModel.py
+2025-11-20 16:56:00,421 - INFO - X_train_scaled shape: (2042, 308)
+2025-11-20 16:56:00,421 - INFO - y_train shape: (2042, 2)
+2025-11-20 16:56:38,243 - INFO - TRAINING: 01-Train2DModel.py
+2025-11-20 16:56:38,762 - INFO - X_train_scaled shape: (2042, 308)
+2025-11-20 16:56:38,762 - INFO - y_train shape: (2042, 2)
+2025-11-20 16:56:44,464 - INFO - TRAINING: 02-TrainFloorDetectionModel.py
+2025-11-20 16:56:44,990 - INFO - X_train_scaled shape: (2269, 308)
+2025-11-20 16:56:44,990 - INFO - y_train shape: (2269,)
+2025-11-20 16:57:32,162 - INFO - TRAINING: 01-Train2DModel.py
+2025-11-20 16:57:32,422 - INFO -              mac_bssid
+0    20:23:00:00:00:01
+1    20:23:00:00:00:02
+2    20:23:00:00:00:03
+3    20:23:00:00:00:04
+4    20:23:00:00:00:05
+..                 ...
+303  20:23:00:00:03:44
+304  20:23:00:00:03:45
+305  20:23:00:00:03:46
+306  20:23:00:00:03:47
+307  20:23:00:00:03:48
+
+[308 rows x 1 columns]
+2025-11-20 16:57:32,465 - INFO - X_train_scaled shape: (2042, 308)
+2025-11-20 16:57:32,466 - INFO - y_train shape: (2042, 2)
+2025-11-20 16:58:14,754 - INFO - TRAINING: 01-Train2DModel.py
+2025-11-20 16:58:15,015 - INFO - ['mac_bssid']
+2025-11-20 16:58:15,052 - INFO - X_train_scaled shape: (2042, 308)
+2025-11-20 16:58:15,052 - INFO - y_train shape: (2042, 2)
+2025-11-20 17:00:18,822 - INFO - TRAINING: 01-Train2DModel.py
+2025-11-20 17:00:19,143 - INFO - X_train_scaled shape: (2042, 308)
+2025-11-20 17:00:19,144 - INFO - y_train shape: (2042, 2)
+2025-11-20 17:01:01,053 - INFO - TRAINING: 01-Train2DModel.py
+2025-11-20 17:01:01,362 - INFO - X_train_scaled shape: (2042, 308)
+2025-11-20 17:01:01,362 - INFO - y_train shape: (2042, 2)
+2025-11-20 17:01:02,900 - INFO - TRAINING: 02-TrainFloorDetectionModel.py
+2025-11-20 17:01:03,209 - INFO - X_train_scaled shape: (2269, 308)
+2025-11-20 17:01:03,209 - INFO - y_train shape: (2269,)
+2025-11-20 17:01:14,599 - INFO - TRAINING: 01-Train2DModel.py
+2025-11-20 17:01:14,891 - INFO - X_train_scaled shape: (2042, 308)
+2025-11-20 17:01:14,892 - INFO - y_train shape: (2042, 2)
+2025-11-20 17:01:16,426 - INFO - TRAINING: 02-TrainFloorDetectionModel.py
+2025-11-20 17:01:16,719 - INFO - X_train_scaled shape: (2269, 308)
+2025-11-20 17:01:16,720 - INFO - y_train shape: (2269,)
+2025-11-20 17:12:39,019 - INFO - TRAINING: 01-Train2DModel.py
+2025-11-20 17:12:39,313 - INFO - X_train_scaled shape: (2042, 308)
+2025-11-20 17:12:39,314 - INFO - y_train shape: (2042, 2)
+2025-11-20 17:12:40,867 - INFO - TRAINING: 02-TrainFloorDetectionModel.py
+2025-11-20 17:12:41,170 - INFO - X_train_scaled shape: (2269, 308)
+2025-11-20 17:12:41,170 - INFO - y_train shape: (2269,)
+2025-11-20 18:59:16,267 - INFO - TRAINING: 01-Train2DModel.py
+2025-11-20 18:59:16,670 - INFO - X_train_scaled shape: (2042, 308)
+2025-11-20 18:59:16,670 - INFO - y_train shape: (2042, 2)
+2025-11-20 18:59:18,281 - INFO - TRAINING: 02-TrainFloorDetectionModel.py
+2025-11-20 18:59:18,701 - INFO - X_train_scaled shape: (2269, 308)
+2025-11-20 18:59:18,701 - INFO - y_train shape: (2269,)

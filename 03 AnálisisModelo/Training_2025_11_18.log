@@ -1,0 +1,60 @@
+2025-11-18 18:40:49,881 - INFO - TRAINING: 01-Train2DModel_split8020.py
+2025-11-18 18:40:50,294 - INFO - X_train_scaled shape: (1633, 308)
+2025-11-18 18:40:50,295 - INFO - y_train shape: (1633, 2)
+2025-11-18 18:40:50,295 - INFO - X_test_scaled shape: (409, 308)
+2025-11-18 18:40:50,295 - INFO - y_test shape: (409, 2)
+2025-11-18 18:41:02,692 - INFO - Best combination: {'metric': 'manhattan', 'n_neighbors': 4, 'p': 1}
+2025-11-18 18:41:02,693 - INFO - MAE: 4.283692203799572 metros
+2025-11-18 18:41:02,693 - INFO - RMSE: 4.303275775056658 metros
+2025-11-18 18:41:04,803 - INFO - TRAINING: 01-Train2DModel.py
+2025-11-18 18:41:05,515 - INFO - X_train_scaled shape: (2042, 308)
+2025-11-18 18:41:05,517 - INFO - y_train shape: (2042, 2)
+2025-11-18 18:41:05,517 - INFO - X_test_scaled shape: (250, 308)
+2025-11-18 18:41:05,518 - INFO - y_test shape: (250, 2)
+2025-11-18 18:41:24,439 - INFO - Best combination: {'metric': 'manhattan', 'n_neighbors': 3, 'p': 1}
+2025-11-18 18:41:24,439 - INFO - MAE: 7.469478819343694 metros
+2025-11-18 18:41:24,439 - INFO - RMSE: 8.109233435848113 metros
+2025-11-18 18:41:26,560 - INFO - TRAINING: 01-Train2DModel_testing.py
+2025-11-18 18:41:26,908 - INFO - X_train_scaled shape: (2042, 308)
+2025-11-18 18:41:26,908 - INFO - y_train shape: (2042, 2)
+2025-11-18 18:41:26,909 - INFO - X_test_scaled shape: (112, 308)
+2025-11-18 18:41:26,909 - INFO - y_test shape: (112, 2)
+2025-11-18 18:41:47,052 - INFO - Best combination: {'metric': 'manhattan', 'n_neighbors': 3, 'p': 1}
+2025-11-18 18:41:47,053 - INFO - MAE: 6.289491004180123 metros
+2025-11-18 18:41:47,054 - INFO - RMSE: 7.275068561525961 metros
+2025-11-18 18:41:49,328 - INFO - TRAINING: 01-Train2DModel_scoring.py
+2025-11-18 18:41:49,735 - INFO - X_train_scaled shape: (2042, 308)
+2025-11-18 18:41:49,735 - INFO - y_train shape: (2042, 2)
+2025-11-18 18:41:49,736 - INFO - X_test_scaled shape: (138, 308)
+2025-11-18 18:41:49,737 - INFO - y_test shape: (138, 2)
+2025-11-18 18:42:10,356 - INFO - Best combination: {'metric': 'manhattan', 'n_neighbors': 3, 'p': 1}
+2025-11-18 18:42:10,357 - INFO - MAE: 8.427150089621374 metros
+2025-11-18 18:42:10,358 - INFO - RMSE: 8.727822827642937 metros
+2025-11-18 18:42:12,498 - INFO - TRAINING: 02-TrainFloorDetectionModel_split8020.py
+2025-11-18 18:42:12,811 - INFO - X_train_scaled shape: (1815, 308)
+2025-11-18 18:42:12,812 - INFO - y_train shape: (1815,)
+2025-11-18 18:42:12,813 - INFO - X_test_scaled shape: (454, 308)
+2025-11-18 18:42:12,814 - INFO - y_test shape: (454,)
+2025-11-18 18:42:30,590 - INFO - Best combination: {'metric': 'manhattan', 'n_neighbors': 3, 'p': 1}
+2025-11-18 18:42:30,590 - INFO - Accuracy: 97.36%
+2025-11-18 18:42:32,765 - INFO - TRAINING: 02-TrainFloorDetectionModel.py
+2025-11-18 18:42:33,274 - INFO - X_train_scaled shape: (2269, 308)
+2025-11-18 18:42:33,274 - INFO - y_train shape: (2269,)
+2025-11-18 18:42:33,275 - INFO - X_test_scaled shape: (250, 308)
+2025-11-18 18:42:33,275 - INFO - y_test shape: (250,)
+2025-11-18 18:42:58,076 - INFO - Best combination: {'metric': 'manhattan', 'n_neighbors': 5, 'p': 1}
+2025-11-18 18:42:58,077 - INFO - Accuracy: 84.0%
+2025-11-18 18:43:00,285 - INFO - TRAINING: 02-TrainFloorDetectionModel_testing.py
+2025-11-18 18:43:00,752 - INFO - X_train_scaled shape: (2269, 308)
+2025-11-18 18:43:00,752 - INFO - y_train shape: (2269,)
+2025-11-18 18:43:00,753 - INFO - X_test_scaled shape: (112, 308)
+2025-11-18 18:43:00,755 - INFO - y_test shape: (112,)
+2025-11-18 18:43:25,389 - INFO - Best combination: {'metric': 'manhattan', 'n_neighbors': 5, 'p': 1}
+2025-11-18 18:43:25,390 - INFO - Accuracy: 85.71%
+2025-11-18 18:43:27,636 - INFO - TRAINING: 02-TrainFloorDetectionModel_scoring.py
+2025-11-18 18:43:27,976 - INFO - X_train_scaled shape: (2269, 308)
+2025-11-18 18:43:27,976 - INFO - y_train shape: (2269,)
+2025-11-18 18:43:27,978 - INFO - X_test_scaled shape: (138, 308)
+2025-11-18 18:43:27,981 - INFO - y_test shape: (138,)
+2025-11-18 18:43:53,414 - INFO - Best combination: {'metric': 'manhattan', 'n_neighbors': 5, 'p': 1}
+2025-11-18 18:43:53,415 - INFO - Accuracy: 82.61%
