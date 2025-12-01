@@ -50,15 +50,13 @@ UPDATE_PROJECTED_COORDINATES = """WITH minCoordinates AS (
                                     projectedx = 6371000 * 2 * 
                                         asin(
                                             sqrt(
-                                                sin(radians(0)/2)^2 + 
                                                 cos(radians(mc.lat0)) * cos(radians(mc.lat0)) * sin(radians(longitude - mc.lon0)/2)^2
                                             )
                                         ),
                                     projectedy = 6371000 * 2 * 
                                         asin(
                                             sqrt(
-                                                sin(radians(latitude - mc.lat0)/2)^2 + 
-                                                cos(radians(mc.lat0)) * cos(radians(latitude)) * sin(radians(0)/2)^2
+                                                sin(radians(latitude - mc.lat0)/2)^2
                                             )
                                         )
                                 FROM minCoordinates mc;
