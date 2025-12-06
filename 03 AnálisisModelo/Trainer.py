@@ -36,19 +36,22 @@ def get_connection():
         port="5432"
     )
 
+def get_distances(y_true, y_pred):
+    return np.sqrt(np.sum((y_true - y_pred)**2, axis=1))
+
 def mean_absolute_error(y_true, y_pred):
     y_true = np.asarray(y_true)
     y_pred = np.asarray(y_pred)
     
-    distances = np.sqrt(np.sum((y_true - y_pred)**2, axis=1))
+    distances = get_distances(y_true, y_pred)
     return np.mean(distances)
     
 def root_mean_squared_error(y_true, y_pred):
     y_true = np.asarray(y_true)
     y_pred = np.asarray(y_pred)
     
-    return np.sqrt(np.mean((y_true - y_pred)**2))
-    
+    distances = get_distances(y_true, y_pred)
+    return np.sqrt(np.mean(distances**2))
 
 def train_2d_model(sql_columns, sql_training, sql_testing):
     df_cols = read_sql(sql_columns)
@@ -233,9 +236,6 @@ def train_KNN_Classifier(X_train, y_train, X_test, y_test):
     best_knn = grid.best_estimator_
     y_pred = best_knn.predict(X_test)
     accuracy = accuracy_score(y_test, y_pred)
-
-    logging_info(f"y_test: {y_test.to_numpy()}")
-    logging_info(f"y_pred: {y_pred}")
 
     logging_info(f"Best combination: {grid.best_params_}")
     logging_info(f"Accuracy: {round(accuracy*100, 2)}%")  
